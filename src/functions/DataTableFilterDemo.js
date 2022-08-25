@@ -149,11 +149,11 @@ const DataTableFilterDemo = () => {
 
   const renderHeader1 = () => {
     return (
-      <div className="flex justify-content-between">
+      <div className="flex mx-2 mt-4 justify-content-between">
         <Button
           type="button"
           icon="pi pi-filter-slash"
-          label="Clear"
+          label="Limpiar"
           className="p-button-outlined"
           onClick={clearFilter1}
         />
@@ -426,7 +426,7 @@ const DataTableFilterDemo = () => {
   const header2 = renderHeader2();
 
   return (
-    <div className="datatable-filter-demo">
+    <div className="datatable-filter-demo mx-4 mt-3">
       <div className="card">
         <DataTable
           value={customers1}
